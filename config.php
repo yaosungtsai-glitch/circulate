@@ -19,19 +19,11 @@ define("SCRIPT_PATH",dirname(__FILE__));    //程式實際放置位置
 
 define("ADODATABASE","mysqli");
 define("ADOHOST_MASTER","localhost");
-define("ADODBNAME",'framework');
+define("ADODBNAME",'circulate');
 define("ADOUNAME","root");
 define("ADOPASS","");
-define("ADOPREFIX","framework");
+define("ADOPREFIX","circulate");
 
-/*
-define("ADODATABASE_API","mysqli");
-define("ADOHOST_API","localhost");
-define("ADODBNAME_API",'api');
-define("ADOUNAME_API","root");
-define("ADOPASS_API","");
-define("ADOPREFIX_OCR","ocr");
-*/
 /*
  * 記錄子站台基本資訊的資料表相關資訊    by yushin, 2008-04-07.
  */
